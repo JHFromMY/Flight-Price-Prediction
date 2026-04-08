@@ -83,6 +83,7 @@ Model used for experimental purpose are RandomForestRegressor, LightGBMRegressor
 | LightGBMClassifier | 94.85% | 95.67% |
 
 Importance Factor from each model:
+
 | :---: | :---: |
 | ![Screenshot](./Screenshots/RFC.png) | ![Screenshot](./Screenshots/RFR.png) |
 | ![Screenshot](./Screenshots/LGBMC.png) | ![Screenshot](./Screenshots/LGBMR.png) |
