@@ -86,7 +86,7 @@ Importance Factor from each model:
 
 | RFC | RFR |
 | --- | --- |
-| <img src="./Screenshots/RFC.png" width="250"> | <img src="./Screenshots/RFR.png" width="250"> |
+| <img src="./Screenshots/RFC.png" width="500"> | <img src="./Screenshots/RFR.png" width="500"> |
 | LGBMC | LGBMR |
-| <img src="./Screenshots/LGBMC.png" width="250"> | <img src="./Screenshots/LGBMR.png" width="250"> |
+| <img src="./Screenshots/LGBMC.png" width="500"> | <img src="./Screenshots/LGBMR.png" width="500"> |
 
