@@ -62,7 +62,7 @@ More detail can refer ```./1_Data/report.html```
 ## Preprocess
 - Drop column, 'Unnamed: 0' and 'flight' since both are no any meaningful.
 - One hot encoding on another column, so all data will be 1 and 0 (True and False).
-- For classifier, price need convert all contiounous data into 2 group (0 as budget and 1 as non budget) based on the median price.
+- For classifier, price need convert all contiounous data into 2 distinct group (0 as budget and 1 as non budget) based on the median price.
 - X: Entire One Hot Encoded and Cleaned Dataset exclude price column
 - y: price column
 -Data Spltting:
