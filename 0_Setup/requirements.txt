@@ -1,1 +1,8 @@
-
+ipykernel
+pandas
+ydata_profiling
+setuptools==81.0.0
+ipywidgets
+scikit-learn
+scipy
+lightgbm
