@@ -75,6 +75,7 @@ Model used for experimental purpose are RandomForestRegressor, LightGBMRegressor
 
 ## Performance
 
+### Score
 | Model | Score (Before Grid Serach) | Score (After Grid Search) |
 | :---: | :---: | :---: |
 | RandomForestRegressor | 98.53% | 98.63% |
@@ -82,11 +83,19 @@ Model used for experimental purpose are RandomForestRegressor, LightGBMRegressor
 | RandomForestClassifier | 96.96% | 97.21% |
 | LightGBMClassifier | 94.85% | 95.67% |
 
-Importance Factor from each model:
+### Importance Factor
+#### RandomForest Classifier
+![Screenshot](./Screenshots/RFC.png)
 
-| RFC | RFR |
-| --- | --- |
-| <img src="./Screenshots/RFC.png" width="500"> | <img src="./Screenshots/RFR.png" width="500"> |
-| LGBMC | LGBMR |
-| <img src="./Screenshots/LGBMC.png" width="500"> | <img src="./Screenshots/LGBMR.png" width="500"> |
+#### RandomForest Regressor
+![Screenshot](./Screenshots/RFR.png)
+
+#### LightGBM Classifier
+![Screenshot](./Screenshots/LGBMC.png)
+
+#### LightGBM Regressor
+![Screenshot](./Screenshots/LGBMR.png)
+
+## Summary
+Overall, LightGBMRegressor has the best result of 98.63% after grid search the best hyperparameter. As a result, duration, days_left and class are the main factor to get a better price of the flight. Means the more duration of the flight, the more days left before booking, the more higher flight class, the more affortable the flight price.
 
