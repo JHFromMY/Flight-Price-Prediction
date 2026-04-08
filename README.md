@@ -78,5 +78,3 @@ Model used for experimental purpose are RandomForestRegressor, LightGBMRegressor
 | RandomForestClassifier | 96.96% | 97.21% |
 | LightGBMClassifier | 94.85% | 95.67% |
 
-- Better generalization with some fine tuning on label smoothing, image augmentation, embedding, learning rate, dense layer and dropout.
-
