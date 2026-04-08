@@ -78,8 +78,8 @@ Model used for experimental purpose are RandomForestRegressor, LightGBMRegressor
 ### Score
 | Model | Score (Before Grid Serach) | Score (After Grid Search) |
 | :---: | :---: | :---: |
-| RandomForestRegressor | 98.53% | 98.63% |
-| LightGBMRegressor | 97.10% | 98.71% |
+| RandomForestRegressor | 98.58% | 98.67% |
+| LightGBMRegressor | 97.12% | 98.74% |
 | RandomForestClassifier | 96.96% | 97.21% |
 | LightGBMClassifier | 94.85% | 95.67% |
 
