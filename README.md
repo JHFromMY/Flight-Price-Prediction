@@ -20,7 +20,9 @@ Downloads/
     |   └── Regressor
     |       ├── LightGBMRegressor.ipynb
     |       └── RandomForestRegressor.ipynb
-    └── README.md
+    ├── README.md
+    └── Screenshots
+            └── Report.png
 ```
 
 ## Virtual Envitronment Setup
@@ -51,6 +53,8 @@ Original dataset from, ```https://www.kaggle.com/datasets/shubhambathwal/flight-
 # 2_Model
 ## EDA
 ![Screenshot](./Screenshots/Report.png)
+
+--- More detail can refer ```./1_Data/report.html``` ---
 
 ### LSTM
 #### Dataset
