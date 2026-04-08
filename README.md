@@ -80,8 +80,8 @@ Model used for experimental purpose are RandomForestRegressor, LightGBMRegressor
 | :---: | :---: | :---: |
 | RandomForestRegressor | 98.58% | 98.67% |
 | LightGBMRegressor | 97.12% | 98.74% |
-| RandomForestClassifier | 96.96% | 97.21% |
-| LightGBMClassifier | 94.85% | 95.67% |
+| RandomForestClassifier | 96.87% | 97.18% |
+| LightGBMClassifier | 94.79% | 95.65% |
 
 ### Importance Factor
 #### RandomForest Classifier
@@ -97,5 +97,5 @@ Model used for experimental purpose are RandomForestRegressor, LightGBMRegressor
 ![Screenshot](./Screenshots/LGBMR.png)
 
 ## Summary
-Overall, LightGBMRegressor has the best result of 98.63% after grid search the best hyperparameter. Regressor model is better than classifier model since it is more suitable on continouous data instead of distinct data group. LightGBM model is better than RandomForest since it can archieve higher accuracy on current large dataset. As a result, duration, days_left and class are the main factor to get a better price of the flight. Means the more duration of the flight, the more days left after booking, the more tend to book economy class flight, the more affortable the flight price.
+Overall, LightGBMRegressor has the best result of 98.74% after grid search the best hyperparameter. Regressor model is better than classifier model since it is more suitable on continouous data instead of distinct data group. LightGBM model is better than RandomForest since it can archieve higher accuracy on current large dataset. As a result, duration, days_left and class are the main factor to get a better price of the flight. Means the more duration of the flight, the more days left after booking, the more tend to book economy class flight, the more affortable the flight price.
 
