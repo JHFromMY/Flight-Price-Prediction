@@ -15,14 +15,14 @@ Downloads/
     |   ├── report.html
     │   └── Clean_Dataset.csv
     ├── 2_Model/
-    |   ├── Classifier
+    |   ├── Classifier/
     |   |   ├── LightGBMClassifier.ipynb
     |   |   └── RandomForestClassifier.ipynb
-    |   └── Regressor
+    |   └── Regressor/
     |       ├── LightGBMRegressor.ipynb
     |       └── RandomForestRegressor.ipynb
     ├── README.md
-    └── Screenshots
+    └── Screenshots/
             ├── LGBMC.png
             ├── LGBMR.png
             ├── Report.png
