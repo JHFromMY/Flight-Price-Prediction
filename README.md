@@ -69,6 +69,7 @@ More detail can refer ```./1_Data/report.html```
 -Data Spltting:
 
 | Train | 80% |
+| :---: | :---: |
 | Test | 20% |
 | :---: | :---: |
 
